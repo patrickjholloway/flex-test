@@ -1,5 +1,5 @@
 const sdk = require('kinvey-flex-sdk');
-function noop = {};
+function noop() {};
 var service = sdk.service({port:3000},(err, flex) => {
   var dataSdk = flex.data;
   var flexFunctions = flex.functions;
