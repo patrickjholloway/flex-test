@@ -1,3 +1,5 @@
+// http://realtime.mbta.com/developer/api/v2?api_key=wX9NwuHnZU2ToO7GmGR9uw&format=json
+const api_key = 'wX9NwuHnZU2ToO7GmGR9');
 const sdk = require('kinvey-flex-sdk');
 function noop() {};
 var service = sdk.service({port:3000},(err, flex) => {
